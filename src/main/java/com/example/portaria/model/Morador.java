@@ -1,0 +1,9 @@
+package com.example.portaria.model;
+import java.util.Date;
+
+public class Morador extends Pessoa{
+    public Morador(int id, String nome, String cpf, Date dataNasc, String telefone, String email) {
+        super(id, nome, cpf, dataNasc, telefone, email);
+    }
+
+}
